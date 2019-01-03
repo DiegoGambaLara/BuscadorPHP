@@ -48,5 +48,9 @@ function playVideoOnScroll(){
     }, 10)
 }
 
+$(document).ready(function() {
+  $('select').material_select();
+});
+
 inicializarSlider();
 playVideoOnScroll();
